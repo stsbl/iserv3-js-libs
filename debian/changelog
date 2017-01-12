@@ -1,5 +1,14 @@
 stsbl-iserv3-js-libs (17.01.12-1) experimental; urgency=medium
 
+  * Removed patches.
+  * Revert "Removed patches."
+    This reverts commit da681cb36646a51701cb56845396e39f5af1d669.
+  * Fixed package description.
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Thu, 12 Jan 2017 19:22:10 +0100
+
+stsbl-iserv3-js-libs (17.01.12-1) experimental; urgency=medium
+
   [ Felix Jacobi ]
   * Added missing install file.
 
