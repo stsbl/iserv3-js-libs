@@ -9,6 +9,6 @@ Homepage: https://it.stsbl.de
 Package: stsbl-iserv3-js-libs
 Architecture: all
 Depends: iserv-portal, stsbl-iserv3-maintenance
-Description: JavaScript-Bibiliotheken für IServ 3
- Enthält JavaSceript-Bibliotheken, die von verschiedenen Modulen der Stadtteilschule Blankenese für die IServ 3-Obberfläche benötigt werden.
+Description: JavaScript-Bibliotheken für IServ 3
+ Enthält JavaScript-Bibliotheken, die von verschiedenen Modulen der Stadtteilschule Blankenese für die IServ 3-Obberfläche benötigt werden.
 Tag: suite::iserv:portal, role::shared-lib, implemented-in::php, implemented-in::js
