@@ -1,0 +1,5 @@
+debian/stsbl-iserv3-js-libs/*
+debian/stsbl-iserv3-js-libs.debhelper.log
+debian/stsbl-iserv3-js-libs.substvars
+debian/files
+debian/debhelper-build-stamp

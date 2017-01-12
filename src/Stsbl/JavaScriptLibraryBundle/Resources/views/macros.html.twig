@@ -1,0 +1,10 @@
+{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/macros.html.twig #}
+
+{% macro StsblJavascriptLibraries() %}
+    {% if app.environment != 'prod' %}
+	<!-- {{ _self.templateName }} => vendor/jquery.initialize.js -->
+    {% endif %}
+    {% javascripts output='js/compiled/jquery.initialize.js' filter='?uglifyjs2' '@StsblJavaScriptLibraryBundle/Resources/public/js/jquery.initialize.js' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endmacro %}
