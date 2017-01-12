@@ -1,5 +1,11 @@
 stsbl-iserv3-js-libs (17.01.12-1) experimental; urgency=medium
 
+  * UNRELEASED
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Thu, 12 Jan 2017 19:23:22 +0100
+
+stsbl-iserv3-js-libs (17.01.12-1) experimental; urgency=medium
+
   [ Felix Jacobi ]
   * Added missing install file.
 
