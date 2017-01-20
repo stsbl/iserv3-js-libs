@@ -1,3 +1,13 @@
+stsbl-iserv3-js-libs (17.01.20-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Added:
+    - jquery-ui 1.12.1
+    - jquery-ui-bootstrap 0.5-pre+stsbl1
+  * Improved bundle structure.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 20 Jan 2017 06:58:04 +0100
+
 stsbl-iserv3-js-libs (17.01.18-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
