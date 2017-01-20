@@ -2280,7 +2280,6 @@ input[type="password"],
 textarea,
 .uneditable-input {
 	display: inline-block;
-	padding: 4px;
 	font-size: 100%;
 	line-height: 18px;
 	color: #555555;
