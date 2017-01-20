@@ -1,6 +1,6 @@
-{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/macros.html.twig #}
+{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/jquery.initialize.html.twig #}
 
-{% macro StsblJavascriptLibraries() %}
+{% macro integrate() %}
     {% if app.environment != 'prod' %}
 	<!-- {{ _self.templateName }} => vendor/jquery.initialize.js -->
     {% endif %}

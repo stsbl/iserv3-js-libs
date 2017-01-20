@@ -1,0 +1,10 @@
+{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/jquery-ui-bootstrap.html.twig #}
+
+{% macro integrate() %}
+    {% if app.environment != 'prod' %}
+	<!-- {{ _self.templateName }} => vendor/jquery-ui-bootstrap/jquery-ui-bootstrap.css -->
+    {% endif %}
+    {% stylesheets output='css/vendor/jquery-ui-bootstrap/jquery-ui-bootstrap.css' filter='cssrewrite' '@StsblJavaScriptLibraryBundle/Resources/public/css/jquery-ui-bootstrap/jquery-ui-bootstrap.css' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+{% endmacro %}

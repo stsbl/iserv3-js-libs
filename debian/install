@@ -12,3 +12,4 @@
 #share/*		usr/share/iserv
 src/*		usr/share/iserv/src
 #install/*	srv/deploy/install
+web/*		usr/share/iserv/web

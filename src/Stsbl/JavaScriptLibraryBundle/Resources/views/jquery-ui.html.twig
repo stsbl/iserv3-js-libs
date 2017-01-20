@@ -1,0 +1,10 @@
+{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/jquery-ui.html.twig #}
+
+{% macro integrate() %}
+    {% if app.environment != 'prod' %}
+	<!-- {{ _self.templateName }} => vendor/jquery-ui.js -->
+    {% endif %}
+    {% javascripts output='js/vendor/jquery-ui.js' filter='?uglifyjs2' '@StsblJavaScriptLibraryBundle/Resources/public/js/jquery-ui.js' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endmacro %}
