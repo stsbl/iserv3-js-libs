@@ -1,3 +1,12 @@
+stsbl-iserv3-js-libs (17.01.21-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Dropped jquery-ui due in incompatibilty with bootstrap.
+  * Dropped jquery-ui-bootstrap.
+  * Dropped jqery-ui-bootstrap assets.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 21 Jan 2017 09:55:56 +0100
+
 stsbl-iserv3-js-libs (17.01.20-2) experimental; urgency=medium
 
   [ Felix Jacobi ]
