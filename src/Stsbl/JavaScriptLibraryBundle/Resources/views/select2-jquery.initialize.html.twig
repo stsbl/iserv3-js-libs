@@ -1,0 +1,10 @@
+{# src/Stsbl/JavaScriptLibraryBundle/Resources/views/select2-jquery.initialize.html.twig #}
+
+{% macro integrate() %}
+    {% if app.environment != 'prod' %}
+	<!-- {{ _self }} => select2-jquery.initialize.js -->
+    {% endif %}
+    {% javascripts output='js/compiled/select2-jquery.initialize.js' filter='?uglifyjs2' '@StsblJavaScriptLibraryBundle/Resources/public/js/select2-jquery.initialize.js' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endmacro %}
