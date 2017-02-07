@@ -25,12 +25,12 @@
 /**
  * Handles the binding of the Select2 plugin.
  * 
- * Mostly same as the original in the CrudBundlem but enhanced with jquery.initalize.js
+ * Mostly same as the original in the CrudBundle but enhanced with jquery.initalize.js
  */
-IServ.FileDistribution = {};
+IServ.StsblJavaScript = {};
 
 
-IServ.FileDistribution.Select2 = IServ.register(function(IServ) {
+IServ.StsblJavaScript.Select2 = IServ.register(function(IServ) {
 
     function formatTag(tag, icon) {
         if (!tag.id) {
