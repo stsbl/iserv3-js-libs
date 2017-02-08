@@ -1,3 +1,13 @@
+stsbl-iserv3-js-libs (17.02.08-0) experimental; urgency=medium
+  
+  [ Felix Jacobi ]
+  * Replace deprecated _self.templateName with _self.
+  * Added select2-jquery.initialize.js.
+  * Changed module name.
+  * Fixed typo.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 08 Feb 2017 01:36:36 +0100
+
 stsbl-iserv3-js-libs (17.01.21-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
