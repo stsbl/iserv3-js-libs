@@ -25,7 +25,7 @@
 /**
  * Handles the binding of the Select2 plugin.
  * 
- * Mostly same as the original in the CrudBundle but enhanced with jquery.initalize.js
+ * Mostly same as the original in the CrudBundle but enhanced with jquery.initialize.js
  */
 IServ.StsblJavaScript = {};
 
