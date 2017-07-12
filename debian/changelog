@@ -1,3 +1,11 @@
+stsbl-iserv3-js-libs (17.07.12-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Removed patches.
+  * Switched to bower for vendor components.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 12 Jul 2017 22:08:00 +0200
+
 stsbl-iserv3-js-libs (17.02.25-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
