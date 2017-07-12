@@ -12,7 +12,6 @@
         this.selector = selector;
         this.callback = callback;
     };
-
     // List of MutationSelectorObservers.
     var msobservers = [];
     msobservers.initialize = function (selector, callback) {

@@ -1,0 +1,23 @@
+{
+  "name": "jquery-initialize",
+  "description": "jQuery plugin for dynamically created elements initialization",
+  "main": "jquery.initialize.js",
+  "authors": [
+    "timpler"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/timpler/jquery.initialize#readme",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "_release": "c968d4c015",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c968d4c01528f906f70e98e864c5e49905d02f7c"
+  },
+  "_source": "git://github.com/pietrasiak/jquery.initialize.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/pietrasiak/jquery.initialize",
+  "_direct": true
+}

@@ -1,0 +1,23 @@
+{
+  "directory":"../Resources/public/vendor",
+  "name": "Stsbl IServ JS Libs",
+  "authors": [
+    "Felix Jacobi <felix.jacobi@stsbl.de>"
+  ],
+  "description": "",
+  "main": "bower.json",
+  "keywords": [
+    "IServ"
+  ],
+  "license": "MIT",
+  "homepage": "https://it.stsbl.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/components",
+    "test",
+    "tests"
+  ]
+}

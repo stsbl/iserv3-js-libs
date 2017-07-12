@@ -4,7 +4,7 @@
     {% if app.environment != 'prod' %}
 	<!-- {{ _self }} => vendor/jquery.initialize.js -->
     {% endif %}
-    {% javascripts output='js/vendor/jquery.initialize.js' filter='?uglifyjs2' '@StsblJavaScriptLibraryBundle/Resources/public/js/jquery.initialize.js' %}
+    {% javascripts output='js/vendor/jquery.initialize.js' filter='?uglifyjs2' '@StsblJavaScriptLibraryBundle/Resources/public/vendor/jquery-initialize/jquery.initialize.js' %}
         <script type="text/javascript" src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endmacro %}
