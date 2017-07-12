@@ -1,3 +1,10 @@
+stsbl-iserv3-js-libs (17.07.12-1) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Removed variable files and updated build rules/install.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 12 Jul 2017 22:10:23 +0200
+
 stsbl-iserv3-js-libs (17.07.12-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
