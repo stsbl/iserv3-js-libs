@@ -22,102 +22,15 @@
  * THE SOFTWARE.
  */
 
-/**
- * Handles the binding of the Select2 plugin.
- * 
- * Mostly same as the original in the CrudBundle but enhanced with jquery.initialize.js
- */
 IServ.StsblJavaScript = {};
-
 
 IServ.StsblJavaScript.Select2 = IServ.register(function(IServ) {
 
-    function formatTag(tag, icon) {
-        if (!tag.id) {
-            return tag.text;
-        }
-
-        return $('<span>' + icon + tag.text + '</span>');
-    }
-
-    function register(e)
+    function initialize()
     {
-        var $this = e;
-
-        // Set overall defaults
-        var options = {
-            theme: 'bootstrap'
-        };
-
-        // Set lang
-        // TODO: Set globally
-        if (IServ.Locale.lang() != 'en') {
-            options.language = IServ.Locale.lang();
-        }
-
-        // Allow clear for optional single choice
-        if (!$this.attr('multiple') && !$this.attr('required')) {
-            options.allowClear = true;
-
-            // Check for placeholder
-            if ($this.attr('placeholder')) {
-                options.placeholder = $this.attr('placeholder');
-            } else {                    // allowClear requires a placeholder!
-                options.placeholder = _('Choose an option');
-            }
-        }
-
-        // Add icon to tags
-        if ($this.data('icon')) {
-            var icon = IServ.Icon.get($this.data('icon'));
-            options.templateSelection = function(tag) {
-                return formatTag(tag, icon);
-            };
-        }
-
-        if ($this.hasClass('select2-stacked')) {
-            options.containerCssClass = 'select2-stacked';
-        }
-
-        // Init select2
-        $this.select2(options);
-
-        // Don't open on removing elements
-        // @link https://github.com/select2/select2/issues/3320
-        $this
-            .on('select2:unselecting', function(e) {
-                $this.data('unselecting', true);
-            })
-            .on('select2:open', function(e) { // note the open event is important
-                if ($this.data('unselecting')) {
-                    $this.removeData('unselecting'); // you need to unset this before close
-                    $this.select2('close');
-                }
-            })
-        ;    
-    }
-    
-    function initialize(scope)
-    {
-        
-        // Init select2
-        $('select.select2', scope).each(function() {
-            register($(this));
-        });
-        
         // Init select2 for elements which are dynamically added
         $('select.select2').initialize(function() {
-            register($(this));
-        });
-
-        $(document).on('keydown', '.select2-container--focus', function (e) {
-            // Check if "down" was pressed
-            if (e.which == 40) {
-                // select2 is bound to the original select-element which *should*
-                // be the previous one in the DOM.
-                $(this).prev().select2('open');
-                e.preventDefault();
-            }
+            IServ.Select2.init($(this));
         });
     }
 
