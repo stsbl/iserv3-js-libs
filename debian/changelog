@@ -1,3 +1,10 @@
+stsbl-iserv3-js-libs (20.08.02-1) testing; urgency=medium
+
+  * Updated source format
+  * Bumped copyright
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 02 Aug 2020 06:33:47 +0200
+
 stsbl-iserv3-js-libs (18.11.25-1) experimental; urgency=medium
 
   * Adapted module structure to web application move
