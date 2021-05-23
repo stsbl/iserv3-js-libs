@@ -1,5 +1,7 @@
 <?php
-// src/Stsbl/JavaScriptLibraryBundle/DependencyInjection/StsblJavaScriptLibraryExtension.php
+
+declare(strict_types=1);
+
 namespace Stsbl\JavaScriptLibraryBundle\DependencyInjection;
 
 use IServ\CoreBundle\DependencyInjection\IServBaseExtension;
@@ -32,10 +34,10 @@ use IServ\CoreBundle\DependencyInjection\IServBaseExtension;
  * This is the class that loads and manages your bundle configuration
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
- * 
+ *
  * @author Felix Jacobi <felix.jacobi@stsbl.de>
  * @license MIT license <https://mit.otg/licenses/MIT>
  */
-class StsblJavaScriptLibraryExtension extends IServBaseExtension
+final class StsblJavaScriptLibraryExtension extends IServBaseExtension
 {
 }
