@@ -4,3 +4,7 @@ debian/stsbl-iserv3-js-libs.substvars
 debian/files
 debian/debhelper-build-stamp
 .pc/*
+/Makefile.iservmake
+/locale
+/system-locale
+!/locale/templates/*_misc.pot
